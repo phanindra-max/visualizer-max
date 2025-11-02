@@ -1,6 +1,8 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skills Network Graph - Version 1 - Visualizer Max</title>
         
             <script src="lib/bindings/utils.js"></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -30,6 +32,35 @@
           <h1></h1>
         </center>
         <style type="text/css">
+             body {
+                 background-color: #f8f9fa;
+                 padding: 20px;
+             }
+             .page-header {
+                 background-color: white;
+                 padding: 20px;
+                 margin-bottom: 20px;
+                 border-radius: 5px;
+                 box-shadow: 0 0 5px rgba(0,0,0,0.1);
+             }
+             .home-link {
+                 display: inline-block;
+                 margin-bottom: 10px;
+                 color: #0d6efd;
+                 text-decoration: none;
+             }
+             .home-link:hover {
+                 text-decoration: underline;
+             }
+             .page-header h1 {
+                 margin: 0;
+                 color: #333;
+                 font-size: 1.8em;
+             }
+             .page-header p {
+                 margin: 5px 0 0 0;
+                 color: #666;
+             }
 
              #mynetwork {
                  width: 100%;
@@ -50,6 +81,11 @@
 
 
     <body>
+        <div class="page-header">
+            <a href="index.html" class="home-link">← Home</a>
+            <h1>Skills Network Graph - Version 1</h1>
+            <p>Network graph showing skill relationships and connections</p>
+        </div>
         <div class="card" style="width: 100%">
             
             
