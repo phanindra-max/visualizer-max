@@ -12,5 +12,5 @@
 ![Condensed Heirarchical plot](https://github.com/user-attachments/assets/356b60f5-cba9-4762-9ae1-a99721f8871a)
 
 
-PS: This project uses random or mock data points to create quick visualizations for presentations and pitches.
+PS: This project uses randomized or mock data points for demonstrative purposes.
 
