@@ -1,6 +1,6 @@
 ## 🫏 This repo contains code and output for creating interactive Plots in Python using Plotly, PyVis and NetworkX 
 
-### ⚡ Feel free to check out the interactive output of this [here](https://phanindra-max.github.io/plotly-visualization/) ⚡
+### ⚡ Feel free to check out the interactive output of this [here](https://phanindra-max.github.io/visualizer-max/) ⚡
 
 - GIF of the 3D Scatter Plot visualization generated with Plotly:
 <img src='3d_scatter_rotation.gif'/>
